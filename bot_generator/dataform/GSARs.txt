@@ -1,0 +1,213 @@
+﻿Global Supplier Add Change Request:
+
+
+The Global Supplier Add Change Request (GSAR) is a process by which Cummins, Inc. adds or updates existing suppliers in their supplier master system, currently called Supplier 360 or S360. The process is to ensure that the supplier information is accurate and that any addition of new supplier information or changes to supplier information, that are not just internal changes, are verified by the supplier through documentation.
+
+
+How to Get Started With the GSAR Process:
+
+
+To either add a new supplier or make changes to an existing supplier a GSAR must be created. 
+The requestor is the person who would like to either add or update an existing supplier. The first step is for that person to find a GSAR Super User. GSAR Super Users are a subset of employees at Cummins responsible for creating GSARs. 
+
+
+To find a GSAR Super User, the requestor can use the GSAR Super User Contact List, which has a column for different Cummins offices and another for GSAR Supers for that location. The requestor must filter the list by their work location, and from then select a specific GSAR Super User at random. 
+
+
+Types of GSAR Requests:
+
+
+Once  a GSAR Super User is selected, the requestor contacts the super user and explains if they are adding a new supplier into the system or updating an existing supplier, and if updating, the specific changes being made to the supplier. For new suppliers, the GSAR Super user will look in S360 and verify if the supplier really needs to be added by verifying the supplier is not in the system already. For a request to update the supplier, the GSAR super user will verify that the changes being requested make sense in relation to the supplier information we already have in the system for a supplier, to make sure for example that the requestor is not adding an address that already exists. 
+
+
+As explained, there are two types of GSARs, to add a new supplier, it is called a New Supplier GSAR and to update an existing supplier, called a Changes to Existing Supplier GSAR. 
+
+
+
+
+New Supplier GSAR:
+
+
+The new supplier GSAR is used to add a new supplier into the system. For a requestor, that has a supplier they would like to. There are several initial pieces of information that the requestor must gather to just get the process started.
+        
+1. The country in which the supplier is in. 
+2. Is this an indirect or direct supplier
+3. The commodity or category of the supplier
+4. The payment terms that the supplier will be set up with
+
+
+This is all information that the requestor will need to provide to the GSAR Super User. This information will be used to determine the documentation that will be needed from the supplier 
+
+
+There are potentially two documents (or one) that will be needed from the supplier in order for the supplier to be added into the system. 
+
+
+One document is the supplier letterhead, which is a letter from the supplier on their supplier letterhead with all of their supplier information. This is required for all suppliers. The other is a tax document, which may or may not  be required depending on the supplier location. 
+
+
+Documentation Requirements for New Supplier GSARs:
+
+
+Tax Documentation:
+
+
+If the supplier is located in the United States, a W-9 tax document is always required. The W-9 must be signed and dated, and the date must be less than a year old from the date of the GSAR Request. 
+
+
+If the supplier is located in India, the tax document required is a PAN Card. 
+
+
+If the supplier is located in any other location, there is no tax document requirement, however they must provide their VAT/Tax ID number on the letterhead. European suppliers use the VAT number on the letterhead. Suppliers in Brazil use the GSTIN number. 
+
+
+If the supplier is located in China, then a tax ID document or tax ID number is not strictly required. However if they have one, it is highly recommended. 
+
+
+Letterhead:
+
+
+Indirect suppliers are suppliers that provide products or services to Cummins that are used internally to support the business but not for production. For example consulting services, or tools, or computers and office supplies. Direct suppliers are suppliers that provide products or services that are directly used for production and directly sold to suppliers. Like engine parts. 
+
+
+Whether the supplier is indirect or direct determines what specific information will be needed in the letterhead. 
+
+
+For indirect suppliers, this is the specific information that will be need on the letterhead:
+
+SUPPLIER NAME (as legally registered/appears on tax number documentation) (Supplier Admin team: Not required for supplier’s located in the US as the name
+will be populated in SIM per the W9)
+TAXPAYER ID (applicable if supplier is located in US; also provide a copy of a signed W9 matching the Taxpayer ID populated below (dated within one year))
+TAX/VAT REGISTRATION NUMBER (not applicable if supplier is located in Brazil, China, India, United Arab Emirates or US)
+PERMANENT ACCOUNT NUMBER (PAN) (applicable if supplier is located in India; also provide copy of current PAN card with matching number)
+
+
+GOODS AND SERVICES TAX IDENTIFICATION NUMBER (GSTIN) (applicable if supplier is located in India and only if being used by Cummins in India)
+CADASTRO NACIONAL DA PESSOA JURÍDICA (CNPJ) (applicable if supplier is located in Brazil)
+-ADDRESS to which purchase orders should be mailed via postal courier (cannot be an email address or state "same as...")
+-SUPPLIER CONTACT to receive purchase orders (POs) (PO Contact - Indirect; cannot state "same as...")
+-ADDRESS to which checks can be mailed via postal/courier service (cannot be an email address or state "same as...")
+-SUPPLIER CONTACT to receive payments (Accounts Receivable (A/R); cannot state "same as...")
+-CURRENCY (in which supplier will receive purchase order from/submit invoice to/receive payment from Cummins)
+-BANKING DETAILS * * Mandatory * *
+-EMAIL ADDRESS OF PERSON TO RECEIVE REMITTANCE ADVICE NOTIFICATION when electronic payments are ** Mandatory **
+NOTE: All pages of the supplier's letterhead and any additional supporting document(s) must be dated (within one year), contain the printed name, job title,
+eSignature or physical signature (not fancy font) of the supplier's company representative providing the information.
+
+
+Direct suppliers need to provide their 
+
+
+SUPPLIER NAME (as legally registered/appears on tax number documentation) (Supplier Admin team: Not required for supplier’s located in the US as the name
+will be populated in SIM per the W9)
+TAXPAYER ID (applicable if supplier is located in US; also provide a copy of a signed W9 matching the Taxpayer ID populated below (dated within one year))
+TAX/VAT REGISTRATION NUMBER (not applicable if supplier is located in Brazil, China, India, United Arab Emirates or US)
+PERMANENT ACCOUNT NUMBER (PAN) (applicable if supplier is located in India; also provide copy of current PAN card with matching number)
+GOODS AND SERVICES TAX IDENTIFICATION NUMBER (GSTIN) (applicable if supplier is located in India and only if being used by Cummins in India)
+CADASTRO NACIONAL DA PESSOA JURÍDICA (CNPJ) (applicable if supplier is located in Brazil)
+-PURCHASING/SHIP-FROM ADDRESS (cannot be a PO Box, an email address or state "same as...")
+-SUPPLIER CONTACT to receive purchase orders (POs) (PO Contact – Direct; cannot state "same as...")
+-ADDRESS to which checks can be mailed via postal/courier service (cannot be an email address or state "same as...")
+-SUPPLIER CONTACT to receive payments (Accounts Receivable (A/R); cannot state "same as...")
+-CURRENCY (in which supplier will receive purchase order from/submit invoice to/receive payment from Cummins)
+-BANKING DETAILS * * Mandatory * *
+-EMAIL ADDRESS OF PERSON TO RECEIVE REMITTANCE ADVICE NOTIFICATION when electronic payments are ** Mandatory **
+NOTE: All pages of the supplier's letterhead and any additional supporting document(s) must be dated (within one year), contain the printed name, job title,
+eSignature or physical signature (not fancy font) of the supplier's company representative providing the information.
+IMPORTANT:
+-The supplier cannot provide a blank copy of their letterhead stating (or state within the body of the letterhead) to use the information listed in
+the header and/or footer.
+-A copy of a quote, invoice or email is not acceptable.
+-If the supplier is changing their Tax Number (due to supplier name change, etc.), a New Supplier must be requested (if one does not already
+exist in the supplier master)
+
+
+The main difference between indirect and direct suppliers is that indirect suppliers provide their purchase order address, and direct suppliers provide their ship from address. 
+
+
+Supplier Commodity/Category:
+
+
+For indirect suppliers, the requestor must also provide the commodity the supplier is in to the GSAR Super User.
+
+
+For direct suppliers, the requestor must also provide the category the supplier is in to the GSAR SuperUser. 
+
+
+Supplier Payment Terms:
+
+
+The requestor must also indicate the payment terms that the new supplier must be set up with. If the supplier supplier is to be set up with payment terms that are different from standard N90 (due in 90 Days) payment terms, the requestor must also provide a justification to the GSAR Super User as to why non standard payment terms are being requested. 
+
+
+Note: New Supplier requests made for Direct suppliers, must be done on behalf of a Sourcing Manager. 
+
+
+Changes to Existing Supplier GSARs:
+
+
+The Changes to Existing Supplier GSAR is done to update the information for an existing supplier that is already in the system. There are two types of GSAR change requests, internal requests that do not require documentation and external requests that do require documentation. 
+
+
+Internal Changes To Existing Supplier GSARs:
+
+
+The following requests do not require documentation from the supplier:
+
+
+-Payment terms change: If requesting to change the payment terms of a supplier from any terms other than N90 (Net 90 or Due in 90 Days) then the requestor must provide justification as to why those specific terms were selected to the GSAR Super User. 
+
+
+-Add Entity Request: these requests are to make a Direct supplier available to all Cummins production plants. These types of requests make the supplier available to all Cummins sites. 
+
+
+-Supplier site or entire Supplier inactivation requests: These requests are made to inactivate a particular site or an entire supplier. The requestor must 
+
+
+External Changes to Existing Supplier GSARs:
+
+
+The following requests do require documentation from the supplier. The tax document, if applicable as explained above, and specific verbiage on the body of the company letterhead as explained below for each type of request. 
+
+
+Supplier name change: These requests are to update the name of a supplier. The letterhead must state the previous name, as we have it in our system, and the new name. For requests that require a tax document, the new name must match the name as provided on the tax document. One example verbiage would be ‘Please update our name from (old name in the system) to new name (new name)’. 
+
+
+Supplier address change: These requests are done to update the address of a supplier. There are two types of addresses, also known as address purpose.  A purchasing address, which is called a purchase order address for indirect suppliers and a ship from address for direct suppliers. The other type/purpose is a remit to address or payment address. An address can be a purchasing address, a payment address, or both. To update an address the supplier letterhead body must provide the previous address being updated and the new address being updated to. For example the supplier must state on their letterhead, “update our previous purchase order address from (old address in our system) to new purchase order address (new address)”. Or “Please update our old ship from and payment address (old address) to new ship from address (new ship from address) and new payment address (new payment address). ” Please note that if an address that used to be both a ship from and payment address is updated into two separate addresses, one for purchasing and the other for payment, an accounts receivable contact person will need to be provided for the new payment address that will need to be added. Or the supplier must specifically request that the same old contact can continue to be used. We will need the name, email and phone (fax if applicable) for that contact. 
+
+
+Supplier Address Addition: These requests are to add an address to a supplier. There are two types of addresses, also known as address purpose.  A purchasing address, which is called a purchase order address for indirect suppliers and a ship from address for direct suppliers. The other type/purpose is a remit to address or payment address. An address can be a purchasing address, a payment address, or both. If a supplier already has a payment address, we do not accept the addition of new standalone payment addresses. The supplier must request to update their existing payment address. If Adding a new purchasing address, the supplier must provide the new address, as well as the purchase order contact (name, email and phone) of the new purchase order contact that will be associated with the address. All purchasing addresses must be associated with a payment address, so the supplier must also provide the associated payment address. The payment address can be an existing payment address, a payment address that is already in the system, or add a new payment address. If adding a new payment address, the supplier must provide on their letterhead the existing or new accounts receivable contact for that address (name, email and phone). For example, the letterhead can state ‘add new Ship from address (new address) and associate with existing payment address (existing payment address) and add new purchase order contact (name, email and phone)’. 
+
+
+Supplier Contact Change: There are two types of supplier contacts that can be updated through the GSAR process, a purchase order contact and accounts receivable contact. A contact can be a purchase order contact, an accounts receivable contact or both. To update a contact the letterhead must provide the name, email and phone of the old contact and name, email and phone of the new contact. As well if the new contact is a purchase order or accounts receivable contact .  If updating a specific attribute (name, email, phone or fax) the supplier must provide what the old attribute was and what the attribute should be. For example the body of the letterhead should state, “Update the purchase order contact (name, email, and phone) with new purchase order contact (name, email and phone)”. Or “Please update the phone number for contact (name) to a new phone number”. 
+
+
+Supplier Contact Add: There are two types of supplier contacts that can be updated through the GSAR process, a purchase order contact and accounts receivable contact. A contact can be a purchase order contact, an accounts receivable contact or both. Each new contact must be associated with an address. The address should be a purchasing address for purchase order contact or payment address for an accounts receivable contact. If the contact is both a purchase order and accounts receivable contact, the address must be both a purchasing and payment address.The supplier must provide within the body of their company letterhead the name, email, and phone of the new contact, whether the contact will be purchase order or accounts receivable contact, or both, and the purchasing or payment address, or both, the contact should be associated with. 
+
+
+Banking Change GSAR: This GSAR is to update the banking information of a supplier. All that is required for this type of change is the new banking details on letterhead including:
+
+
+Bank Name:
+Beneficiary Name:
+Routing Number (ABA) (US based suppliers only):
+Bank Account Number:
+Beneficiary A/C No./ IBAN No.:
+Swift Code:
+Transit No (Canada based suppliers only):
+Institution No (Canada based suppliers only):
+Sort Code (UK based suppliers only):
+ACH Code (if applicable):
+Bank City:
+Bank State:
+Bank Country:
+Bank Agency Number (if applicable):
+Currency:
+
+
+Currency Change GSAR: The supplier must provide old currency on letterhead as well as the new currency on the body of their company letterhead. 
+
+
+
+
+NOTE: All pages of the supplier's letterhead and any additional supporting document(s) must be dated (within one year), contain the printed name, job title,
+eSignature or physical signature (not fancy font) of the supplier's company representative providing the information.

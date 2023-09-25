@@ -9,15 +9,13 @@ from io import StringIO
 from dotenv import load_dotenv
 import io
 import sqlite3
+from database import database_manager as db_manager
 
 
 load_dotenv()
+print(os.curdir)
 
-
-connection = sqlite3.connect('bot_database.db')
-cursor = connection.cursor()
-cursor.execute('''CREATE TABLE IF NOT EXISTS bots (id INTEGER PRIMARY KEY, bot_name TEXT, bot_purpose TEXT, bot_file_name TEXT)''')
-
+db_manager.create_table()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
@@ -26,52 +24,60 @@ st.header("Create a Bot")
 
 name = st.text_input("Name of Bot")
 
-data = st.file_uploader("Instructions", type=['txt'])
-
-if data is not None:
-    string_data = StringIO(data.getvalue().decode("utf-8"))
-    gsar_prompt = f"summarize the following text into 4 sentences describing it in the way you would see it as introductory paragraph:  {string_data.read()} /n/n "
-    with st.spinner("Generating response..."):
-        generated_response = openai.ChatCompletion.create(
-            model='gpt-4',
-            messages=[
-                {"role": "user", "content": gsar_prompt}
-            ],
-            temperature=0.0
-        )
-
-        formatted_response = generated_response['choices'][0]['message']['content']
-        purpose = st.text_area("Purpose of Bot", formatted_response)
+col1, col2 = st.columns(2)
+formatted_response = ""
 
 
-    clicked = st.button("Create")
+data = st.file_uploader("Instructions File", type=['txt'])
 
-    if clicked:
+
+if st.button("Generate Purpose from File"):
+    if data is not None:
+        string_data = StringIO(data.getvalue().decode("utf-8"))
+        gsar_prompt = f"summarize the following text into 4 sentences describing it in the way you would see it as introductory paragraph:  {string_data.read()} /n/n "
+        
+        with st.spinner("Generating response..."):
+            generated_response = openai.ChatCompletion.create(
+                model='gpt-4',
+                messages=[
+                    {"role": "user", "content": gsar_prompt}
+                ],
+                temperature=0.0
+            )
+
+            formatted_response = generated_response['choices'][0]['message']['content']
+
+purpose = st.text_area("Purpose of Bot", formatted_response)
+
+
+if data is not None and purpose is not "" and name is not "":
+    if st.button("Create"):
         file_name = f"{name}.py"
         folder_name = "pages"
 
         if data is not None:
             try:
                 file_extension = os.path.splitext(data.name)[-1].lower()
-                
+                    
                 # Specify the folder where you want to save the file
                 save_folder = "dataform"
-                
-                # Create the folder if it doesn't exist
+                    
+                    # Create the folder if it doesn't exist
                 if not os.path.exists(save_folder):
-                    os.makedirs(save_folder)
-                
-                # Construct the full path to save the file
+                        os.makedirs(save_folder)
+                    
+                    # Construct the full path to save the file
                 save_path = os.path.join(save_folder, data.name)
-                
-                # Save the file to the specified location
+                    
+                    # Save the file to the specified location
                 with open(save_path, "wb") as f:
                     f.write(data.read())
 
                 st.success(f"File '{data.name}' saved to {save_path}")
+
             except Exception as e:
                 st.error(f"Error saving file: {e}")
-        
+            
         if not os.path.exists(folder_name):
             os.makedirs(folder_name)
             st.write(f"Created '{folder_name}' folder.")
@@ -84,18 +90,18 @@ if data is not None:
 
             st.success(f"Created '{file_name}' in the '{folder_name}' folder.")
 
-            cursor.execute('''INSERT INTO bots (bot_name, bot_purpose, bot_file_name) VALUES (?, ?, ?)''', (name,purpose,data.name))
+            db_manager.create_bot(name, purpose, data)
+            name = None
+            purpose = None
 
-            # Commit the changes to the database
-            connection.commit()
+
         except Exception as e:
             st.error(f"Error creating bot script: {e}")
 
-connection = sqlite3.connect('bot_database.db')
-cursor = connection.cursor()
-cursor.execute('''SELECT * FROM bots''')
-bots_data = cursor.fetchall()
-connection.close()
+
+bots_data = db_manager.get_all_bots()
+
+
 st.divider()
 if bots_data is not None:
     st.header("Built:")
@@ -112,30 +118,28 @@ if bots_data is not None:
 
         with col4:
             if st.button(f"Update {bot[1]}"):
-                print("updating")
+                db_manager.update_bot(bot[0], new_name, new_purpose)
+
+                if new_data is not None:
+                    db_manager.delete_bot_file(f"dataform/{bot[3]}")
+                    db_manager.create_new_file(new_data)
+                    db_manager.update_bot_file_db(bot[0], new_data.name)
+
+
 
         with col5:
             if st.button(f"Delete {bot[1]}", type="primary"):
                 print("updating")
 
-connection = sqlite3.connect('mydatabase.db')
-cursor = connection.cursor()
 
-# Streamlit app title and description
+
+
 st.divider()
 st.title('Delete All:')
 st.write("Click the button below to delete all data from the database.")
 
 # Button to delete data
 if st.button('Delete All Data'):
-    # Execute the DELETE statement to remove all data
-    cursor.execute('''DELETE FROM bots''')
-    
-    # Commit the changes to the database
-    connection.commit()
-
-    # Inform the user that data has been deleted
+    db_manager.delete_all()
     st.write("All data has been deleted from the database.")
 
-# Close the database connection
-connection.close()

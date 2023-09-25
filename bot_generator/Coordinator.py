@@ -17,7 +17,7 @@ openai.api_key = OPENAI_API_KEY
 
 
 st.image("cumminslogo.png")
-st.header("Process Finder:")
+st.header("FAQ Process Finder:")
 
 question = st.text_input(
     "Please type below what you would like to learn more about and I will try to find the process for you to ask your questions. ", placeholder="Enter question...")

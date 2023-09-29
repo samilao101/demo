@@ -1,0 +1,174 @@
+
+SSDS Cohorts
+
+Project Presentations
+
+SSDS Program Members
+
+Training & Support
+
+Reference Material
+a laptop with a coffee cup
+Helpful Videos
+icon
+SSDS Community Page
+
+Project Charter
+
+Submit Feedback
+What is Self Service Data Science?
+Self-Serve means that anyone, regardless of expertise, should be able to use the applications and derive the desired benefits from it. Data is the fuel that makes these applications work. Science describes the complex mathematics that allow data science to perform so much better than traditional software.
+
+Self-serve Data Science Program allows end-users to delve into enterprise data and come to conclusions just as data analysts or data scientists might, but without the need for programming expertise.
+
+
+
+SSDS Elements of Success
+​​​​​​
+Structured training (Awareness and Novice levels) ​
+No-code / low-code analytics platform ​
+Robust AAI infrastructure for both data and platform​
+Practical experience from value delivering projects​
+Mentoring / Coaching from embedded local experts (Sensei) and AAI Data Science Experts​
+Supporting processes (e.g. charters, project flow, project database) ​
+Commitment to continuous improvement (for the program and also participant skillsets)
+SSDS Mission Statement
+The Self-Serve Data Science Program aims to Accelerate analytics-led business value by empowering exempt employees around the globe with data science know-how, tools, and experience.  This is a digital transformation for Cummins. ​ 
+
+SSDS Vision Statement
+To enable business users make better analytics-led decisions by making them proficient in Data Science tools and methodologies. 
+
+SSDS Open Office Hours
+The Self-Service Data Science Program offers Open Office Hours Sessions. Business users can join these sessions as per their availability for getting help/answers to any open questions they have regarding SSDS program, and its tools and technologies involved.
+
+Open Office Hour Sessions are organized twice a week. 
+
+Tuesdays (8:00 - 9:00AM EST) Join Meeting
+Thursdays (1:00 - 2:00 PM EST): 
+Join Meeting
+Questions are logged in the Open Office Hours Tracker which can be used for reference. The link to the Open Office Hours Tracker is given below.
+​​​​​​​
+Open Office Hours Tracker
+
+SSDS Trainings
+The Self-Service Data Science Program offers multiple trainings that are curated to help participants become proficient in Data Science concepts and methodologies as well as the tool required to implement those. 
+
+The trainings provided by the SSDS program are listed below. 
+
+
+
+The Awareness Training takes the Senseis on a learning Journey through the Data Science Lifecycle.
+Tool Training: Senseis have the flexibility to work with various tools based on the suitability for their projects. They can choose the most appropriate tools to effectively address the specific requirements of their projects.
+Databricks Training
+Azure Machine Learning Training
+Palantir Training
+Extensive information about the training can be found on the Training and Support page. 
+
+Prognostics Open Office Hours
+AAI (AAI Numerati EBU prognostics team) has created the Prognostics Databricks Model Training Template which would help few SSDS people to train the prognostics model for their use cases.
+
+Open Office Hour Session:
+
+Thursday (4:00 PM - 4:30 PM EST) Join Meeting
+Request access to Apoorva Sarah for Template Documentation
+SSDS Advanced Documentation
+Advanced documentation about the program which includes information about SSDS Processes, Best Practices, Architecture and information about the tool and technologies can be found here. 
+
+The advanced documentation is an ever-growing library that contains information intended to help visitors and new members learn more about the SSDS program.
+
+SSDS Journey Training
+
+The Journey Training takes the Senseis on a learning Journey through the Data Science Lifecycle.
+
+The Education Modules as part of the Awareness training are
+
+Introduction / Data Lakes/ Programming
+Data Management and Cleaning​
+EDA Techniques and Data Visualization​
+Machine Learning​
+Architecture / Model Deployment and Data Analysis
+Learning Objects
+
+Define analytics and communicate effectively using common data science terminology. 
+Describe common analytics approaches. 
+Understand and calculate model performance metrics and tie them to financial returns​. 
+Apply project feasibility checks such as data quantity, data quality, data coverage, and data latency​. 
+Know common failure modes and keys to success in analytics projects and take pro- active action to minimize risk and maximize value. 
+Identify Cummins business objectives for analytics and align projects with analytics roadmaps at the corporate and BU levels.
+Demonstrate familiarity with both data science and business aspects of Cummins analytics project process flow and Agile PM philosophy​.
+Identify different types of data and data sources that are available for pursuing analytics projects.
+Complete and submit effective analytics project charters for screening and prioritization. ​​​​​​​
+
+
+C3 AI Trainings
+
+C3 AI offers two introductory virtual trainings, followed by in-person training that leads to Ex Machina certification. ​​​​​​​
+
+Virtual Trainings 
+
+C3 AI operates an online training portal for users.  Users should first visit https://developer.c3.ai and create an account for the C3 AI Developer Portal, which is a hub for training, documentation, and community help for C3 AI products.  The Developer Portal contains links to the below training courses, which can also be directly accessed by visiting https://learnc3.litmos.com and signing in with your Developer Portal account credentials.  
+
+There are two recommended courses for new Self Service Data Scientists: 
+
+
+
+C3 AI Cornerstone – Teaches the fundamentals of the C3 AI Suite, upon which C3 AI Ex Machina is built.  This includes core concepts such as model driven architecture, unified federated data image, extensible architecture, and cloud computing.  Outside of core technical capabilities, the course includes a viewpoint on how to identify good AI use cases.  
+The C3 AI Citizen Data Scientist (Ex Machina) – Provides a guided tour of key Ex Machina components and capabilities. 
+In-Person Trainings
+
+There are 3 training options that provide flexibility to New Users 
+
+1. Self-Service Online Training 
+
+3 hours of video instruction detailing all major aspects of the platform 
+Built-in data sets provide hands-on step-by-step instruction at your own pace​ 
+2. Quick Start Training​ 
+
+4 hour in-person or virtual training that provides interactive instruction and labs summarizing all aspects of the platform 
+Designed for more technical users that want an initial introduction before diving into the platform​ 
+Run over the course of a single day or split into multiple 1-hour sessions​ 
+3. Full Classroom Training​ 
+
+2-3 days in-person or virtual training that provides a detailed review the platform, use case analysis and getting started on a user’s first project​ 
+Built for newer, less technical users 
+Participants are asked to come with use case ideas and data sets to utilize during the training
+Certifications
+
+The C3 AI training path aims to train and certify a new class of AI analysts. There are two certifications trainings - Ex Machina AI Analyst Certification and Ex Machina AI Trainer Certification. 
+
+Ex Machina AI Analyst Certification​: The Ex Machina AI Analyst Certification​ aims to educate AI analysts on how to Structure and scope AI problem and Deliver AI results with Ex Machina.  ​​​​​​​
+
+The Education Modules as part of the Ex Machina AI Analyst Certification are 
+
+
+Problem Setup 
+Data connectors​ 
+Data prep​ 
+ML training, validation & prediction​ 
+Dashboards & outputs​ 
+Team & resource management 
+Ex Machina AI Trainer Certification​: The Ex Machina AI Trainer Certification​ aims to educate AI trainers on how to ID AI analyst candidates and Train AI analysts.  
+
+The Education Modules as part of the Ex Machina AI Trainer Certification are
+ 
+
+AI Analyst skillsets 
+Technical Fundamentals 
+Ex Machina Capabilities & Roadmap 
+Citizen Data Science Fundamentals 
+Working with C3 AI 
+Training Tactics / Q & A 
+Presentation Preparation 
+
+
+The Self-Service Data Science Program offers Open Office Hours Sessions. Business users can join these sessions as per their availability for getting help/answers to any open questions they have regarding SSDS program, and its tools and technologies involved.
+
+
+Open Office Hour Sessions are organized twice a week. 
+
+Tuesdays (8:00 - 9:00AM EST)  Join Meeting
+Thursdays (1:00 - 2:00 PM EST): 
+Join Meeting
+Questions are logged in the Open Office Hours Tracker which can be used for reference. The link to the Open Office Hours Tracker is given below.
+​​​​​​​
+Open Office Hours Tracker

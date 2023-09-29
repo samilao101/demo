@@ -12,7 +12,7 @@ os.environ['REQUESTS_CA_BUNDLE'] = 'certificate\certificate.crt'
 
 load_dotenv()
 
-bot_id = 2
+bot_id = 3
 
 bot = db_manager.get_bot_by_id(bot_id)
 

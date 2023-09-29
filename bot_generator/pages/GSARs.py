@@ -5,6 +5,9 @@ import openai
 from dotenv import load_dotenv
 import io
 from database import database_manager as db_manager
+import chardet
+
+os.environ['REQUESTS_CA_BUNDLE'] = 'certificate\certificate.crt'
 
 
 load_dotenv()
@@ -20,7 +23,12 @@ openai.api_key = OPENAI_API_KEY
 
 file_path = f'dataform/{bot_file_name}'
 
-with open(file_path, 'r') as file:
+with open(file_path, 'rb') as file:
+    result = chardet.detect(file.read())
+
+encoding = result['encoding']
+
+with open(file_path, 'r', encoding = encoding) as file:
     file_content = file.read()
 
 st.image("cumminslogo.png")

@@ -24,7 +24,7 @@ def generate_coordinator_prompt(question):
     Processes to choose from:
     {processes}
     Return the process that more closely resembles the question with a response: Please use the following process: [<b>Process Name</b>.]
-    Please only answer in that format with and converting the name into a link with base url: {base_url} and the process name having underscores instead of spaces.
+    Please only answer in that format with and converting the name into a link with base url: {base_url} and the process name having underscores instead of spaces. You can add an explanation why this process was selected.
     Do try your best to match it to an existing process, but if the question doesn't match any of the processes at all, say \' I was unable to find a related process, please use the following list of processes and definitions.' and provide all the processes and definitions and links in a nicely formatted markdown. 
     """
     return prompt

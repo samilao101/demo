@@ -7,7 +7,7 @@ import io
 from database import database_manager as db_manager
 from forms_templates import prompt_generator
 
-
+os.environ['REQUESTS_CA_BUNDLE'] = 'certificate\certificate.crt'
 
 
 load_dotenv()

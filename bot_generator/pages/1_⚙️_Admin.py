@@ -15,6 +15,9 @@ import pickle
 from pathlib import Path
 import streamlit_authenticator as stauth
 
+os.environ['REQUESTS_CA_BUNDLE'] = 'certificate\certificate.crt'
+
+
 file_path = Path(__file__).parent.parent / "hashed_pw.pkl"
 
 with open(file_path, "rb") as file:

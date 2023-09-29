@@ -1,4 +1,4 @@
-﻿Global Supplier Add Change Request:
+Global Supplier Add Change Request:
 
 
 The Global Supplier Add Change Request (GSAR) is a process by which Cummins, Inc. adds or updates existing suppliers in their supplier master system, currently called Supplier 360 or S360. The process is to ensure that the supplier information is accurate and that any addition of new supplier information or changes to supplier information, that are not just internal changes, are verified by the supplier through documentation.
